@@ -1,0 +1,27 @@
+{
+  "name": "acli",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx babel source.js -o cli.js && node cli",
+    "build": "npx babel source.js -o cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "@google/genai": "^1.17.0",
+    "ink": "^6.2.3",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.1.1"
+  }
+}
