@@ -30,13 +30,9 @@ This tool allows you to get responses from the Gemini AI model directly in your 
 
 ## Configuration
 
-Before running the application, you need to set up your Google Gemini API key. The application loads the key from an environment variable named `API_KEY`.
+Before running the application, you need to set up your Google Gemini API key. The application loads the key from an environment variable named `GEMINI_API_KEY`.
 
-Create a `.env` file in the root of the project:
-```
-API_KEY="YOUR_GEMINI_API_KEY"
-```
-Replace `"YOUR_GEMINI_API_KEY"` with your actual key.
+
 
 ## Usage
 
