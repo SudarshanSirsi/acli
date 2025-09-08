@@ -44,16 +44,6 @@ npm run dev
 
 This will start the application. You will be prompted to enter your query. After you submit your query by pressing `Enter`, the AI's response will be displayed below.
 
-### Example
-
-```
-? Enter your query › write a haiku about code
-Compiling thoughts now...
-
-Lines of logic flow,
-Bugs may hide in shadows deep,
-Code will find the way.
-```
 
 ## Project Structure
 
@@ -80,6 +70,3 @@ This project uses Babel to transpile modern JavaScript from `source.js` into `cl
 *   `npm run dev`: Transpiles the code and starts the application in development mode.
 *   `npm run build`: Transpiles the source code for production.
 
-## License
-
-This project is licensed under the ISC License. See the `LICENSE` file for details.
